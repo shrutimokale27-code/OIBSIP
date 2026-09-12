@@ -1,0 +1,96 @@
+# Unemployment Analysis with Python
+
+## Project Overview
+
+This project analyzes unemployment trends in India using Python and data analysis techniques.
+
+The analysis focuses on unemployment rates across different states and changes in unemployment over time.
+
+## Objectives
+
+- Analyze unemployment rates in India.
+- Compare unemployment rates across different states.
+- Study monthly unemployment trends.
+- Identify states with higher and lower average unemployment rates.
+- Analyze relationships between unemployment rate, employment and labour participation.
+- Visualize the findings using charts and a correlation heatmap.
+
+## Dataset
+
+- Dataset: Unemployment in India
+- Source: Kaggle
+- Dataset contains unemployment-related information for different regions of India.
+- Important variables include:
+  - Region
+  - Date
+  - Estimated Unemployment Rate (%)
+  - Estimated Employed
+  - Estimated Labour Participation Rate (%)
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Data Preprocessing
+
+The following steps were performed:
+
+- Loaded the CSV dataset using Pandas.
+- Cleaned column names.
+- Checked missing values.
+- Removed missing records.
+- Converted the Date column into datetime format.
+- Generated statistical summaries.
+
+## Analysis Performed
+
+### 1. State-wise Unemployment Analysis
+
+The average unemployment rate was calculated for each state/region.
+
+The top 10 states/regions with the highest average unemployment rate were visualized using a bar chart.
+
+### 2. Monthly Unemployment Trend
+
+The average unemployment rate was analyzed over time.
+
+A line chart was used to visualize the monthly unemployment trend in India.
+
+### 3. Correlation Analysis
+
+A correlation heatmap was created to study the relationship between:
+
+- Estimated Unemployment Rate
+- Estimated Employed
+- Estimated Labour Participation Rate
+
+## Visualizations
+
+The project includes:
+
+- Top 10 States by Average Unemployment Rate
+- Monthly Unemployment Rate in India
+- Correlation Heatmap
+
+## Key Insights
+
+- Unemployment rates vary across different states and regions.
+- The unemployment rate changes over time.
+- The analysis helps identify regions with relatively higher and lower unemployment.
+- Employment and labour participation can be studied along with unemployment to understand labour-market conditions.
+
+## Project Structure
+
+```text
+Data-Science-Task-2-Unemployment-Analysis/
+│
+├── Unemployment in India.csv
+├── unemployment_analysis.py
+├── README.md
+├── top_10_unemployment_states.png
+├── monthly_unemployment_trend.png
+└── correlation_heatmap.png
